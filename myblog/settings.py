@@ -80,14 +80,14 @@ WSGI_APPLICATION = "myblog.wsgi.application"
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
-
+# Jp9aG1cwKtcRE5zs
 DATABASES = {
     "default": {
         "ENGINE": "djongo",
         "NAME": "Zarin",
         "ENFORCE_SCHEMA": False,
         "CLIENT": {
-            "host": "mongodb+srv://zarinsharmin:Jp9aG1cwKtcRE5zs@cluster0.pf8z2rt.mongodb.net/zarin?retryWrites=true&w=majority"
+            "host": "mongodb+srv://zarinsharmin:Jp9aG1cwKtcRE5zs@cluster0.pf8z2rt.mongodb.net/?retryWrites=true&w=majority"
         },
     }
 }
